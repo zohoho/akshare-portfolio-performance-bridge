@@ -1,5 +1,7 @@
 # AkShare–Portfolio Performance 桥接器
 
+简体中文 | [English](README_EN.md)
+
 一款面向 Windows 的本地桌面桥接器，为
 [Portfolio Performance](https://www.portfolio-performance.info/) 提供中国内地、香港和美国市场的 JSON/CSV 报价接口。程序只监听
 `127.0.0.1:18765`，不维护持仓，也不会把 Portfolio Performance 数据上传到网络。
