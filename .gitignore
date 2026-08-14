@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local runtimes
+.venv/
+.venv-*/
+venv/
+.runtime/
+runtime/
+
+# Application data and logs
+.cache/
+cache/
+logs/
+state/
+*.log
+*.tmp
+
+# Build and release artifacts
+build/
+dist/
+*.spec
+*.exe
+*.msi
+SHA256SUMS.txt
+
+# Local/vendor leftovers are not source dependencies
+vendor/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
