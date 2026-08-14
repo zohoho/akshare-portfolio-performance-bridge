@@ -18,7 +18,17 @@ Current version: `2.0.3`
 
 ## Screenshots
 
-Privacy-safe screenshots without account details, holdings, or local paths will be added under [`docs/screenshots`](docs/screenshots/) before the repository is made public.
+### Service overview
+
+![Bridge service overview](docs/screenshots/overview.png)
+
+### A-share quote test
+
+![300308.SZ A-share quote test](docs/screenshots/a-share-test.png)
+
+### Hong Kong fund ISIN test
+
+![HK0000294535 Hong Kong fund quote test](docs/screenshots/hong-kong-fund-test.png)
 
 ## Installation
 

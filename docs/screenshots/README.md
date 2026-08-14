@@ -1,5 +1,10 @@
 # Screenshots
 
-Before making the repository public, place the current overview, data-test and
-maintenance screenshots in this directory and link them from the root README.
-Screenshots must not contain account names, private paths, holdings or tokens.
+Privacy-safe screenshots used by the Chinese and English project READMEs:
+
+- `overview.png`: service state, versions, endpoint and controls.
+- `a-share-test.png`: live `300308.SZ` quote test.
+- `hong-kong-fund-test.png`: `HK0000294535` ISIN quote test.
+
+The screenshots contain no account names, holdings, private paths, credentials,
+or tokens.

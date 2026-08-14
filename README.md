@@ -19,7 +19,17 @@
 
 ## 界面截图
 
-仓库公开前会在 [`docs/screenshots`](docs/screenshots/) 补充不含账户、持仓和本机路径的界面截图。
+### 服务概览
+
+![桥接器服务概览](docs/screenshots/overview.png)
+
+### A 股报价测试
+
+![300308.SZ A 股报价测试](docs/screenshots/a-share-test.png)
+
+### 香港基金 ISIN 测试
+
+![HK0000294535 香港基金报价测试](docs/screenshots/hong-kong-fund-test.png)
 
 ## 安装
 
