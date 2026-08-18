@@ -7,6 +7,24 @@ A local Windows desktop bridge that provides
 
 Current version: `2.0.3`
 
+## Environment Requirements
+
+### Using the published installer
+
+- Windows 10 or Windows 11 on a 64-bit system.
+- Python, AkShare, and Portfolio Performance do not need to be pre-installed. The installer includes a private Python 3.12 runtime and the bundled AkShare runtime.
+- Administrator privileges are not required. Installation, configuration, caches, logs, and update runtimes are stored under the current user's profile.
+- Internet access is required for public quote endpoints, fund-company NAV endpoints, and PyPI update checks. Portfolio Performance communicates with the bridge locally through `127.0.0.1`.
+- The current user must be allowed to create a Windows logon scheduled task to use automatic startup at sign-in.
+
+### Running from source
+
+- Windows 10 or Windows 11 on a 64-bit system.
+- CPython 3.12 (64-bit recommended) and PowerShell.
+- Git for obtaining the source code, plus network access to PyPI and the supported data sources.
+- Running tests requires `requirements.txt`; building the Windows installer also requires `requirements-build.txt` and Inno Setup 6.
+- Set `AKSHARE_PP_DATA_DIR` to an isolated directory when running from source so the production installation data is not modified.
+
 ## Features
 
 - Historical and latest quotes for Chinese open-end funds, exchange-traded ETFs, and A-shares.

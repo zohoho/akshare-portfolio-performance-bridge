@@ -8,6 +8,24 @@
 
 当前版本：`2.0.3`
 
+## 环境要求
+
+### 使用已发布安装包
+
+- Windows 10 或 Windows 11，64 位系统。
+- 不需要预装 Python、AkShare 或 Portfolio Performance；安装包自带 Python 3.12 运行环境和固定版本的 AkShare 运行库。
+- 不需要管理员权限。安装、配置、缓存、日志和更新运行环境都写入当前用户目录。
+- 需要网络访问公开行情、基金公司净值接口和 PyPI 更新检查；Portfolio Performance 与桥接器之间通过本机 `127.0.0.1` 通信。
+- 需要当前用户允许创建 Windows 登录计划任务，才能使用登录后自动启动。
+
+### 从源码运行
+
+- Windows 10 或 Windows 11，64 位系统。
+- CPython 3.12（建议使用 64 位版本）和 PowerShell。
+- Git（仅用于获取源码）以及访问 PyPI 和数据源的网络连接。
+- 运行测试只需安装 `requirements.txt`；构建 Windows 安装包还需要 `requirements-build.txt` 和 Inno Setup 6。
+- 源码运行时可以用 `AKSHARE_PP_DATA_DIR` 指定独立数据目录，避免修改正式安装的数据。
+
 ## 主要功能
 
 - 中国开放式基金、场内 ETF 和 A 股历史报价及最新价。
